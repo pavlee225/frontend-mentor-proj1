@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto px-20 lg:max-xl sm:max-sm">
     <nav-bar></nav-bar>
     <main-part></main-part>
     <news-list></news-list>

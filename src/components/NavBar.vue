@@ -5,11 +5,11 @@
         </div>
         <div class="flex p-2">
             <ul>
-                <li><a href="#"> Home </a></li>
-                <li><a href="#"> New </a></li>
-                <li>Popular</li>
-                <li>Trending</li>
-                <li>Categories</li>
+                <li class="hover:text-orange-600"><a href="#"> Home </a></li>
+                <li class="hover:text-orange-600"><a href="#"> New </a></li>
+                <li class="hover:text-orange-600"> <a href="#">Popular </a></li>
+                <li class="hover:text-orange-600"> <a href="#">Trending </a></li>
+                <li class="hover:text-orange-600"> <a href="#">Categories </a></li>
             </ul>
         </div>
     </div>
