@@ -1,5 +1,22 @@
 @tailwind base;
 @tailwind components;
+
+@screen lg {
+  .main-image {
+    @apply w-[818.66px] h-[440px];
+  }
+}
+@media (max-width: 420px) {
+    .main-image {
+        @apply w-[295px] h-[295px] mx-auto
+    }
+    .news-image {
+        @apply w-[150px] h-[200px]
+    }
+    .news-para {
+        @apply text-sm
+    }
+}
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
