@@ -1,22 +1,24 @@
 <template>
   <div class="container mx-auto lg:max-w-screen-lg lg:px-5 xsm:px-10 md:max-w-screen-md sm:max-w-screen-sm">
     <nav-bar></nav-bar>
+    <!-- <test-bar></test-bar> -->
     <main-part></main-part>
     <news-list></news-list>
   </div>
-  
 </template>
 <script>
 import NavBar from './components/NavBar.vue';
 import MainPart from './components/MainPart.vue';
 import NewsList from './components/NewsList.vue'
+// import TestBar from './components/TestBar.vue'
 
 export default {
   name: 'App',
   components: {
     NavBar,
     MainPart,
-    NewsList
+    NewsList,
+    // TestBar
   }
 }
 </script>

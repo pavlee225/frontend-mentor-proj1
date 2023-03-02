@@ -1,22 +1,32 @@
 @tailwind base;
 @tailwind components;
 
-@screen lg {
+@media (max-width: 2000px) {
   .main-image {
     @apply w-[818.66px] h-[440px];
+    content: url("./assets/images/image-web-3-desktop.jpg");
   }
 }
-@media (max-width: 420px) {
-    .main-image {
-        @apply w-[295px] h-[295px] mx-auto
-    }
-    .news-image {
-        @apply w-[150px] h-[200px]
-    }
-    .news-para {
-        @apply text-sm
-    }
+@media (max-width: 950px) {
+  .main-image {
+    @apply w-[560px] h-[200px];
+    content: url("./assets/images/image-web-3-desktop.jpg");
+  }
 }
+
+@media (max-width: 420px) {
+  .main-image {
+    @apply w-[295px] h-[295px] mx-auto;
+    content: url("./assets/images/image-web-3-mobile.jpg");
+  }
+  .news-image {
+    @apply w-[150px] h-[200px];
+  }
+  .news-para {
+    @apply text-sm;
+  }
+}
+
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");

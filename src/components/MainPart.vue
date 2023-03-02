@@ -1,7 +1,8 @@
 <template>
     <div class="grid lg:grid-cols-3 gap-6 mt-5 sm:grid-cols-1">
         <div class="lg:col-span-2 sm:col-span-1 xsm:col-span-1">
-            <img src="@/assets/images/image-web-3-desktop.jpg" alt="main-image" class="main-image" />
+            <!-- <img src="@/assets/images/image-web-3-desktop.jpg" alt="main-image" class="main-image" /> -->
+            <div class="main-image"></div>
         </div>
         <div
             class="flex flex-col bg-blue text-white lg:row-span-2 sm:row-span-1 sm:row-start-4 xsm:col-span-1 xsm:text-center xsm:row-start-4 gap-10 bg-slate-600 font-inter lg:p-10 xsm:p-5">
