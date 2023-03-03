@@ -19,11 +19,12 @@
                     <button type="button" class="
                                             focus:outline-none focus:text-gray-400
                                 ">
-                        <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
+                                <img src="@/assets/images/icon-menu.svg" alt="hamburger icon" />
+                        <!-- <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
                             <path fill-rule="evenodd"
                                 d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z">
                             </path>
-                        </svg>
+                        </svg> -->
                     </button>
                 </div>
             </div>
@@ -33,7 +34,7 @@
                     flex-col
                     mt-8
                     lg:space-y-2
-                    md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0
+                    md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 navbar-open
                 ">
                 <li class=" hover:text-orange-600"><a href="#">Home</a></li>
                 <li class=" hover:text-orange-600"><a href="#">New</a></li>

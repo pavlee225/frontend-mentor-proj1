@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 
-@media (max-width: 2000px) {
+@media (max-width: 2500px) {
   .main-image {
     @apply w-[818.66px] h-[440px];
     content: url("./assets/images/image-web-3-desktop.jpg");
